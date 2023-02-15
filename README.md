@@ -1,2 +1,4 @@
 # I-motion
-Projet de groupe en Back-end 
+Group project PHP
+
+## Colors
