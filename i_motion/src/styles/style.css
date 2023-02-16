@@ -1,0 +1,24 @@
+:root {
+    --main-color: #7B16F7;
+    --logo-color: #7EE9F0;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: var(--main-color);
+}
+
+.bg-logo {
+    background-color: var(--logo-color);
+    height: 40px;
+    width: 40px;
+}
+
+.logo {
+    color: white;
+    height: 26px;
+    width: 30px;
+}
