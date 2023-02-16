@@ -21,4 +21,29 @@ header, footer {
     color: white;
     height: 26px;
     width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.search{
+    background-color: #D9D9D9;
+}
+
+.subscribe{
+    background-color: rgb(255, 230, 0);
+    color : black;
+    border: none;
+}
+
+/* .subscribe:hover{
+    background-color: yellow;
+    color: black;
+} */
+
+
+.mentions{
+    text-decoration: none;
+    color: #fff;
 }

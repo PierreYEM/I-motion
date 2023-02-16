@@ -15,12 +15,12 @@
     <body>
         <header class="p-3">
             <div class="container d-flex align-items-center justify-content-between">
-                <div class="bg-logo d-flex align-items-center justify-content-center">
+                <div class="bg-logo d-flex align-items-center justify-content-center rounded-1">
                     <i class="fa-solid fa-igloo logo"></i>
                 </div>
 
-                <form class="mb-3 mb-lg-0 me-lg-3" role="search">
-                    <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
+                <form class="mb-3 mb-lg-0 me-lg-3 col-4" role="search">
+                    <input type="search" class="form-control form-control-dark search rounded-5" placeholder="Rechercher..." aria-label="Search">
                 </form>
 
                 <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
@@ -29,26 +29,84 @@
                 </a>
 
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                    <li><a href="#" class="nav-link px-2 text-secondary">Accueil</a></li>
+                    <li><a href="#" class="nav-link px-2 text-white">Accueil</a></li>
                 </ul>
 
                 <div class="text-end">
                     <button type="button" class="btn btn-outline-light me-2">Connexion</button>
-                    <button type="button" class="btn btn-warning">Inscription</button>
+                    <button type="button" class="btn btn-warning  subscribe">Inscription</button>
                 </div>
                 </div>
             </div>
         </header>
+
+
+
+        <!-- -------------------------------------------------------------------------------------------------------- -->
+
+
+        <nav class="navbar navbar-expand-md " aria-label="Fourth navbar example">
+    <div class="container-fluid px-5 d-flex justify-content-between">
+
+      
+            <div class="bg-logo d-flex align-items-center justify-content-center rounded-1 me-5">
+                <i class="fa-solid fa-igloo logo"></i>
+            </div>
+
+            <form role="search">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+            </form>
+
+        
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="collapse navbar-collapse position-relative" id="navbarsExample04">
+      
+
+       <div class=" d-flex align-items-center position-absolute end-0">
+       <a class="nav-link active me-3" aria-current="page" href="#">Accueil</a>
+
+                    <button type="button" class="btn btn-outline-dark text-dark me-3">Connexion</button>
+                    <button type="button" class="btn btn-warning  subscribe  mr-4">Inscription</button>
+            </div>
+      </div>
+
+
+    </div>
+  </nav>
+
+
+
+        <!-- -------------------------------------------------------------------------------------------------------- -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         <footer class="d-flex flex-wrap justify-content-center align-items-center py-3 border-top fixed-bottom">
             <div class="d-flex align-items-center justify-content-center">
                 <i class="fa-brands fa-twitter"></i>
                 <i class="fa-brands fa-instagram"></i>
                 <div class="text-center">
-                    <a href="#">Mentions légales</a>
+                    <a href="#" class="mentions">Mentions légales</a>
                     <p class="mb-3 mb-md-0 text-muted">© 2022 TeaMotionDamages, Inc</p>
                 </div>
-                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-facebook " ></i>
                 <i class="fa-brands fa-tiktok"></i>
                 <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"></a>
             </div>
